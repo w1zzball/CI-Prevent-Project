@@ -20,7 +20,7 @@ description
 - W3C validator results here -
 
 ## Deployment
-
+- after initial deployment with github pages, lighthouse report comes back all over 95%
 ## Credits
 - https://www.officeforstudents.org.uk/advice-and-guidance/student-wellbeing-and-protection/counter-terrorism-the-prevent-duty/prevent-case-studies/
 
