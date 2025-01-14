@@ -4,6 +4,9 @@
     --background-green: #7CA982;
   }
 
+html {
+    scroll-padding-top: 40px; /* Add this to ensure proper scroll position */
+}
 
 body {
     min-height: 100vh;
@@ -14,14 +17,14 @@ body {
     padding-top: 60px; /* Add this line */
 }
 
-.section{
+.section {
+    scroll-margin-top: 10px; /* padding to stop nav hiding header */
     padding: 20px;
     margin: 20px;
-    border: 1px solid  var(--primary-light);
+    border: 1px solid var(--primary-light);
     border-radius: 5px;
     background-color: var(--primary-dark);
 }
-
 
 main {
     flex: 1 0 auto;
@@ -32,8 +35,7 @@ footer {
 }
 
 form input,
-form textarea
- {
+form textarea {
     color: var(--primary-light) !important;
     background-color: var(--primary-dark) !important;
 }
@@ -59,7 +61,7 @@ form textarea
 .btn-primary {
     background-color: var(--background-green) !important;
     border-color: var(--primary-light) !important;
-    color: var (--primary-light) !important;
+    color: var(--primary-light) !important;
 }
 
 .btn-primary:hover {
