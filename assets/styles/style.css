@@ -94,3 +94,8 @@ form textarea {
     color: var(--primary-dark) !important;
     border-color: var(--primary-light) !important;
 }
+
+#signs img{
+    width: 300px;
+    height: auto;
+}

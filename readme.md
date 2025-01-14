@@ -13,7 +13,10 @@ description
 - resources / links
 - testimonials
 
+
 ## Testing and Issues
+- Use of bootstrap classes demands heavy use of !important keywords in css to override
+
 - W3C validator results here -
 
 ## Deployment
