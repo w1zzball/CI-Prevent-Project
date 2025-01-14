@@ -1,8 +1,26 @@
+:root {
+    --primary-light: #F1F7ED;
+    --primary-dark: #243E36;
+    --background-green: #7CA982;
+  }
+
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: var(--background-green);
+    color: var(--primary-light)
 }
+
+.section{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid  var(--primary-light);
+    border-radius: 5px;
+    background-color: var(--primary-dark);
+}
+
 
 main {
     flex: 1 0 auto;
@@ -10,4 +28,11 @@ main {
 
 footer {
     margin-top: auto;
+}
+
+form input,
+form textarea
+ {
+    color: var(--primary-light) !important;
+    background-color: var(--primary-dark) !important;
 }
