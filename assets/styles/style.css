@@ -10,7 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--background-green);
-    color: var(--primary-light)
+    color: var(--primary-light);
+    padding-top: 60px; /* Add this line */
 }
 
 .section{
@@ -35,4 +36,40 @@ form textarea
  {
     color: var(--primary-light) !important;
     background-color: var(--primary-dark) !important;
+}
+
+.navbar {
+    background-color: var(--primary-dark) !important;
+    border-bottom: 2px solid var(--primary-light) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--primary-light) !important;
+}
+
+.navbar-toggler {
+    background-color: var(--primary-light) !important;
+}
+
+.nav-link:hover {
+    color: var(--background-green) !important;
+}
+
+.btn-primary {
+    background-color: var(--background-green) !important;
+    border-color: var(--primary-light) !important;
+    color: var (--primary-light) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-light) !important;
+    color: var(--primary-dark) !important;
+    border-color: var(--background-green) !important;
+}
+
+.list-group-item {
+    background-color: var(--background-green) !important;
+    color: var(--primary-dark) !important;
+    border-color: var(--primary-light) !important;
 }
