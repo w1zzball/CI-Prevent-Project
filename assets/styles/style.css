@@ -80,7 +80,7 @@ form textarea {
 .btn-primary {
     background-color: var(--background-green) !important;
     border-color: var(--primary-light) !important;
-    color: var(--primary-light) !important;
+    color: var (--primary-light) !important;
 }
 
 .btn-primary:hover {
@@ -93,6 +93,7 @@ form textarea {
     background-color: var(--background-green) !important;
     color: var(--primary-dark) !important;
     border-color: var(--primary-light) !important;
+    font-weight: 600 !important;
 }
 
 #signs img{
