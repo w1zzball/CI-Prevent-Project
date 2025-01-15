@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-
+/* global */
 :root {
     --primary-light: #F1F7ED;
     --primary-dark: #243E36;
@@ -36,12 +36,33 @@ footer {
     margin-top: auto;
 }
 
+
+.btn-primary {
+    background-color: var(--background-green) !important;
+    border-color: var(--primary-light) !important;
+    color: var (--primary-light) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-light) !important;
+    color: var(--primary-dark) !important;
+    border-color: var(--background-green) !important;
+}
+
+.list-group-item {
+    background-color: var(--background-green) !important;
+    color: var(--primary-dark) !important;
+    border-color: var(--primary-light) !important;
+    font-weight: 600 !important;
+}
+
+/* form */
 form input,
 form textarea {
     color: var(--primary-light) !important;
     background-color: var(--primary-dark) !important;
 }
-
+/* navbar */
 .navbar {
     background-color: var(--primary-dark) !important;
     border-bottom: 2px solid var(--primary-light) !important;
@@ -82,29 +103,23 @@ form textarea {
     border-color: var(--background-green) !important;
 }
 
-.btn-primary {
-    background-color: var(--background-green) !important;
-    border-color: var(--primary-light) !important;
-    color: var (--primary-light) !important;
+.navbar-nav {
+    margin-left: auto !important;
 }
 
-.btn-primary:hover {
-    background-color: var(--primary-light) !important;
-    color: var(--primary-dark) !important;
-    border-color: var(--background-green) !important;
+.navbar-collapse {
+    text-align: right !important;
 }
 
-.list-group-item {
-    background-color: var(--background-green) !important;
-    color: var(--primary-dark) !important;
-    border-color: var(--primary-light) !important;
-    font-weight: 600 !important;
-}
 
+
+/* signs */
 #signs img{
     width: 300px;
     height: auto;
 }
+
+/* socials */
 
 .social-links i {
     font-size: 1.5rem;
@@ -113,11 +128,10 @@ form textarea {
 .social-links a:hover {
     color: var(--background-green) !important;
 }
-
-.navbar-nav {
-    margin-left: auto !important;
+/* resources */
+#resources a{
+    color: var(--primary-light);
 }
-
-.navbar-collapse {
-    text-align: right !important;
+#resources i{
+    font-size: 0.8rem;
 }
