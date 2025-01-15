@@ -53,6 +53,8 @@ footer {
     margin-top: auto;
 }
 
+/* buttons */
+
 .btn-primary {
     background-color: var(--background-green) !important;
     border-color: var(--primary-light) !important;
@@ -73,6 +75,11 @@ footer {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.toggle-all {
+    min-width: 120px;
+    border-radius: 5px !important;
+}
+
 .list-group-item {
     background-color: var(--background-green) !important;
     color: var(--primary-dark) !important;
@@ -81,7 +88,7 @@ footer {
     transition: all 0.3s ease;
     border-left: 4px solid var(--background-green) !important;
 }
-
+/* accordion */
 .list-group-item:hover {
     transform: translateX(5px);
 }

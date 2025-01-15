@@ -32,15 +32,36 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-// Handle accordion behavior for list items
+    // Handle accordion behavior for list items and toggle buttons
     const listGroups = document.querySelectorAll('.list-group');
-
+    
     listGroups.forEach(listGroup => {
         const collapseElements = listGroup.querySelectorAll('.collapse');
+        const toggleBtn = listGroup.previousElementSibling.querySelector('.toggle-all');
+        
+        // Initialize button state
+        toggleBtn.textContent = 'Expand All';
+        
+        // Add toggle all button handler
+        toggleBtn.addEventListener('click', () => {
+            const currentState = toggleBtn.textContent;
+            const isExpanding = currentState === 'Expand All';
+            
+            collapseElements.forEach(collapse => {
+                const bsCollapse = new bootstrap.Collapse(collapse, {toggle: false});
+                if (isExpanding) {
+                    bsCollapse.show();
+                } else {
+                    bsCollapse.hide();
+                }
+            });
+            
+            toggleBtn.textContent = isExpanding ? 'Collapse All' : 'Expand All';
+        });
 
+        // Add individual collapse handlers
         collapseElements.forEach(collapse => {
             collapse.addEventListener('show.bs.collapse', () => {
-                // Close other collapses only within the same list group
                 collapseElements.forEach(other => {
                     if (other !== collapse && other.classList.contains('show')) {
                         bootstrap.Collapse.getInstance(other).hide();
@@ -121,4 +142,6 @@ document.addEventListener('DOMContentLoaded', function () {
         },
     };
 });
+
+// Remove the duplicate event listener at the bottom of the file
 
