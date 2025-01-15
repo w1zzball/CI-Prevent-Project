@@ -12,7 +12,7 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - copyright information
 
 ### Feature to Implement / TODO
-- ~~resources / links~~ **done**
+- ~~resources / links~~ | **done**
 - better integrate images into warning signs section
 - testimonials
 
@@ -33,3 +33,4 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - git for version control
 - Balsamiq for wireframing
 - ChatGPT for writing copy / images
+- GIMP for image manipulation

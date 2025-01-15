@@ -2,9 +2,6 @@
 document.getElementById('copyright').innerHTML = `&copy; ${new Date().getFullYear()}.`;
 
 //update contact form after user submits
-function submitUpdate(){
-    alert('Thank you for your submission');
-}
 function submitUpdate() {
     const contactSection = document.getElementById('contact');
     contactSection.innerHTML = `
