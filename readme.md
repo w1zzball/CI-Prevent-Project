@@ -1,13 +1,15 @@
 # Prevent Project
-description
+This Project aims to create a small static website to provide a brief overview of the UK governments Prevent anti extremism programme along with a list of warning signs of possible radicalisation and a contact form for those worried about extremism. (**this is a proof of concept please see links in the credits section for actual government resources**).
+
+The site aims to be easily legible, navigable and accessible for all users and conforms with standard SEO practices to enhance its visibility on the web as it may be a point of contact for those looking for help.
 ## features
 ### Essential Features
-- Navbar with links to relevent sections
+- Navbar with links to relevant sections
 - Short Description of Prevent
 - Signs of Radicalisation
 - Contact Form
 ### Other Features
-- copywrite information
+- copy write information
 
 ### Feature to Implement
 - resources / links
