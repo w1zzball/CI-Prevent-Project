@@ -31,4 +31,19 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    // Handle accordion behavior for list items
+    const collapseElements = document.querySelectorAll('.collapse');
+    
+    collapseElements.forEach(collapse => {
+        collapse.addEventListener('show.bs.collapse', () => {
+            // Close all other collapses
+            collapseElements.forEach(other => {
+                if (other !== collapse && other.classList.contains('show')) {
+                    bootstrap.Collapse.getInstance(other).hide();
+                }
+            });
+        });
+    });
 });
+
