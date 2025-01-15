@@ -91,7 +91,6 @@ footer {
 }
 
 .collapse {
-    border-top: 1px solid var(--primary-light);
     margin-top: 0.75rem;
     transition: all 0.3s ease-in-out;
 }
