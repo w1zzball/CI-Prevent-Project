@@ -1,58 +1,58 @@
 // Image lookup tables for both lists
 const firstListImages = {
     collapse1: {
-        src: './assets/images/withdrawal.png',
+        src: './assets/images/accordion/collapse1.webp',
         alt: 'Person withdrawing from social interactions'
     },
     collapse2: {
-        src: './assets/images/hostility.png',
+        src: './assets/images/accordion/collapse2.webp',
         alt: 'Person showing hostile behavior'
     },
     collapse3: {
-        src: './assets/images/scripted.png',
+        src: './assets/images/accordion/collapse3.webp',
         alt: 'Person repeating rehearsed phrases'
     },
     collapse4: {
-        src: './assets/images/secretive.png',
+        src: './assets/images/accordion/collapse4.webp',
         alt: 'Person being secretive about views'
     },
     collapse5: {
-        src: './assets/images/anger.png',
+        src: './assets/images/accordion/collapse5.webp',
         alt: 'Person displaying anger'
     },
     collapse6: {
-        src: './assets/images/isolation.png',
+        src: './assets/images/accordion/collapse6.webp',
         alt: 'An isolated figure looking at a laptop'
     }
 };
 
 const secondListImages = {
     collapse7: {
-        src: './assets/images/extreme_terms.png',
+        src: './assets/images/accordion/collapse7.webp',
         alt: 'Person using extremist language'
     },
     collapse8: {
-        src: './assets/images/extremist_values.png',
+        src: './assets/images/accordion/collapse8.webp',
         alt: 'Person expressing extremist values'
     },
     collapse9: {
-        src: './assets/images/collapse9.png',
+        src: './assets/images/accordion/collapse9.webp',
         alt: 'Support'
     },
     collapse10: {
-        src: './assets/images/collapse10.png',
+        src: './assets/images/accordion/collapse10.webp',
         alt: 'Support'
     },
     collapse11: {
-        src: './assets/images/collapse9.png',
+        src: './assets/images/accordion/collapse11.webp',
         alt: 'Support'
     },
     collapse12: {
-        src: './assets/images/collapse9.png',
+        src: './assets/images/accordion/collapse12.webp',
         alt: 'Support'
     },
     collapse13: {
-        src: './assets/images/collapse9.png',
+        src: './assets/images/accordion/collapse13.webp',
         alt: 'Support'
     }
 };
