@@ -33,15 +33,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Handle accordion behavior for list items
-    const collapseElements = document.querySelectorAll('.collapse');
+    const listGroups = document.querySelectorAll('.list-group');
     
-    collapseElements.forEach(collapse => {
-        collapse.addEventListener('show.bs.collapse', () => {
-            // Close all other collapses
-            collapseElements.forEach(other => {
-                if (other !== collapse && other.classList.contains('show')) {
-                    bootstrap.Collapse.getInstance(other).hide();
-                }
+    listGroups.forEach(listGroup => {
+        const collapseElements = listGroup.querySelectorAll('.collapse');
+        
+        collapseElements.forEach(collapse => {
+            collapse.addEventListener('show.bs.collapse', () => {
+                // Close other collapses only within the same list group
+                collapseElements.forEach(other => {
+                    if (other !== collapse && other.classList.contains('show')) {
+                        bootstrap.Collapse.getInstance(other).hide();
+                    }
+                });
             });
         });
     });
