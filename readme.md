@@ -11,15 +11,15 @@ The site aims to be easily legible, navigable and accessible for all users and c
 ### Other Features
 - copyright information
 
-### Feature to Implement
-- ~~ resources / links ~~ **done**
+### Feature to Implement / TODO
+- ~~resources / links~~ **done**
+- better integrate images into warning signs section
 - testimonials
 
 
-## Testing, Issues and TODO
+## Testing and Issues
 - Use of bootstrap classes demands heavy use of !important keywords in css to override
 - Bootstrap default styling looks generic
-
 - W3C validator results here -
 
 ## Deployment
@@ -28,3 +28,8 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - https://www.officeforstudents.org.uk/advice-and-guidance/student-wellbeing-and-protection/counter-terrorism-the-prevent-duty/prevent-case-studies/
 
 - https://www.bhscp.org.uk/preventing-abuse-and-neglect/spotting-the-signs/signs-of-radicalisation-extremism/
+## Software used 
+- VSCode for editing
+- git for version control
+- Balsamiq for wireframing
+- ChatGPT for writing copy / images
