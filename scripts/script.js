@@ -1,11 +1,9 @@
+//update copyright year
+document.getElementById('copyright').innerHTML = `&copy; ${new Date().getFullYear()}.`;
 
-
-//update copywrite year
-document.getElementById('copywrite').innerHTML = `&copy; ${new Date().getFullYear()}.`;
-
+//update contact form after user submits
 function submitUpdate(){
     alert('Thank you for your submission');
-    // document.getElementById('form').reset();
 }
 function submitUpdate() {
     const contactSection = document.getElementById('contact');
@@ -20,3 +18,20 @@ function submitUpdate() {
         </div>
     `;
 }
+
+// handle collapsing navbar on mobile view
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all nav links
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    
+    // Add click handler to each nav link
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            // Check if navbar is expanded (mobile view)
+            if (navbarCollapse.classList.contains('show')) {
+                navbarCollapse.classList.remove('show');
+            }
+        });
+    });
+});
