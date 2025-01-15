@@ -10,6 +10,8 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - Contact Form
 ### Other Features
 - copyright information
+- dynamic image loading
+
 
 ### Feature to Implement / TODO
 - ~~resources / links~~ | **done**
