@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 10px; /* padding to stop nav hiding header */
     padding: 20px;
     margin: 20px;
-    border: 1px solid var(--primary-light);
+    border: 1px solid var (--primary-light);
     border-radius: 5px;
     background-color: var(--primary-dark);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -84,6 +84,10 @@ footer {
 
 .list-group-item:hover {
     transform: translateX(5px);
+}
+
+.list-group-item[data-bs-toggle="collapse"] {
+    cursor: pointer;
 }
 
 /* form */
