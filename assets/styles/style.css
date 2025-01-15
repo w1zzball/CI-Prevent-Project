@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 :root {
     --primary-light: #F1F7ED;
     --primary-dark: #243E36;
@@ -5,7 +7,7 @@
   }
 
 html {
-    scroll-padding-top: 40px; /* Add this to ensure proper scroll position */
+    scroll-padding-top: 40px; /* ensures proper scroll position */
 }
 
 body {
@@ -14,7 +16,7 @@ body {
     flex-direction: column;
     background-color: var(--background-green);
     color: var(--primary-light);
-    padding-top: 60px; /* Add this line */
+    padding-top: 60px;
 }
 
 .section {
@@ -53,6 +55,7 @@ form textarea {
 .navbar-toggler {
     background-color: var(--background-green) !important;
     border: 1px solid var(--primary-light) !important;
+    margin-bottom: 0.7rem !important;
 }
 
 .navbar-toggler-icon {
@@ -69,11 +72,13 @@ form textarea {
     border-radius: 5px !important;
     padding: 0.5rem 1rem !important;
     margin-left: 0.5rem !important;
+    display: inline-block !important;
+    width: auto !important;
 }
 
 .nav-link[href="#contact"]:hover {
     background-color: var(--primary-light) !important;
-    color: var(--primary-dark) !important;
+    color: var (--primary-dark) !important;
     border-color: var(--background-green) !important;
 }
 
@@ -107,4 +112,12 @@ form textarea {
 
 .social-links a:hover {
     color: var(--background-green) !important;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+}
+
+.navbar-collapse {
+    text-align: right !important;
 }
