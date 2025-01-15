@@ -90,6 +90,45 @@ footer {
     cursor: pointer;
 }
 
+.collapse {
+    border-top: 1px solid var(--primary-light);
+    margin-top: 0.75rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+
+.collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.collapse .mt-2 {
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    padding: 0.75rem;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.collapsing .mt-2 {
+    opacity: 0;
+}
+
+.list-group-item .bi-chevron-down {
+    transition: transform 0.3s ease;
+}
+
+.list-group-item[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+}
+
 /* form */
 form input,
 form textarea {
