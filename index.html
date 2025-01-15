@@ -133,18 +133,24 @@
                   <input type="tel" class="form-control" id="phone">
                 </div>
               </div>
-              <div class="mb-3">
-                <label for="postcode" class="form-label">Postcode</label>
-                <input type="text" class="form-control" id="postcode">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <div class="mb-3">
+                    <label for="postcode" class="form-label">Postcode</label>
+                    <input type="text" class="form-control" id="postcode">
+                  </div>
+                  <div class="d-none d-md-block text-end mb-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-8 mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="4"></textarea>
+                </div>
               </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
-              </div>
-              <div class="text-center">
+              <div class="d-md-none text-center mt-3">
                 <button type="submit" class="btn btn-primary">Submit</button>
               </div>
-
             </form>
           </div>
         </div>
