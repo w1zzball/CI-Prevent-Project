@@ -1,3 +1,62 @@
+// Image lookup tables for both lists
+const firstListImages = {
+    collapse1: {
+        src: './assets/images/withdrawal.png',
+        alt: 'Person withdrawing from social interactions'
+    },
+    collapse2: {
+        src: './assets/images/hostility.png',
+        alt: 'Person showing hostile behavior'
+    },
+    collapse3: {
+        src: './assets/images/scripted.png',
+        alt: 'Person repeating rehearsed phrases'
+    },
+    collapse4: {
+        src: './assets/images/secretive.png',
+        alt: 'Person being secretive about views'
+    },
+    collapse5: {
+        src: './assets/images/anger.png',
+        alt: 'Person displaying anger'
+    },
+    collapse6: {
+        src: './assets/images/isolation.png',
+        alt: 'An isolated figure looking at a laptop'
+    }
+};
+
+const secondListImages = {
+    collapse7: {
+        src: './assets/images/extreme_terms.png',
+        alt: 'Person using extremist language'
+    },
+    collapse8: {
+        src: './assets/images/extremist_values.png',
+        alt: 'Person expressing extremist values'
+    },
+    collapse9: {
+        src: './assets/images/collapse9.png',
+        alt: 'Support'
+    },
+    collapse10: {
+        src: './assets/images/collapse10.png',
+        alt: 'Support'
+    },
+    collapse11: {
+        src: './assets/images/collapse9.png',
+        alt: 'Support'
+    },
+    collapse12: {
+        src: './assets/images/collapse9.png',
+        alt: 'Support'
+    },
+    collapse13: {
+        src: './assets/images/collapse9.png',
+        alt: 'Support'
+    }
+};
+
 //update copyright year
 document.getElementById('copyright').innerHTML = `&copy; ${new Date().getFullYear()}.`;
 
@@ -82,66 +141,5 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     });
-
-    // Image lookup tables for both lists
-    const firstListImages = {
-        collapse1: {
-            src: './assets/images/withdrawal.png',
-            alt: 'Person withdrawing from social interactions'
-        },
-        collapse2: {
-            src: './assets/images/hostility.png',
-            alt: 'Person showing hostile behavior'
-        },
-        collapse3: {
-            src: './assets/images/scripted.png',
-            alt: 'Person repeating rehearsed phrases'
-        },
-        collapse4: {
-            src: './assets/images/secretive.png',
-            alt: 'Person being secretive about views'
-        },
-        collapse5: {
-            src: './assets/images/anger.png',
-            alt: 'Person displaying anger'
-        },
-        collapse6: {
-            src: './assets/images/isolation.png',
-            alt: 'An isolated figure looking at a laptop'
-        }
-    };
-
-    const secondListImages = {
-        collapse7: {
-            src: './assets/images/extreme_terms.png',
-            alt: 'Person using extremist language'
-        },
-        collapse8: {
-            src: './assets/images/extremist_values.png',
-            alt: 'Person expressing extremist values'
-        },
-        collapse9: {
-            src: './assets/images/collapse9.png',
-            alt: 'Support'
-        },
-        collapse10: {
-            src: './assets/images/collapse10.png',
-            alt: 'Support'
-        },
-        collapse11: {
-            src: './assets/images/collapse9.png',
-            alt: 'Support'
-        },
-        collapse12: {
-            src: './assets/images/collapse9.png',
-            alt: 'Support'
-        },
-        collapse13: {
-            src: './assets/images/collapse9.png',
-            alt: 'Support'
-        },
-    };
 });
-
-// Remove the duplicate event listener at the bottom of the file
 
