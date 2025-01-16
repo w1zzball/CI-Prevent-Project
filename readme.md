@@ -31,7 +31,7 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - using 'expand all' button collapses first element if open
 
 ### Feature to Implement / TODO
--favicon
+- ~~favicon~~ | **done**
 - ~~resources / links~~ | **done**
 - ~~better integrate images into warning signs section~~ |**done**
 - testimonials | possibly outside scope of project / irrelevant
@@ -39,7 +39,7 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - replace low quality AI placeholder images with illustrative vector art
 - add aria-expanded attributes to accordion items 
 - replace bootstrap with bespoke styling
-- ensure all images are of same proportions
+- ~~ensure all images are of same proportions~~ | **done**
 
 
 
