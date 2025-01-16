@@ -18,11 +18,14 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - ~~better integrate images into warning signs section~~ | **done**
 - testimonials
 - replace low quality AI placeholder images with illustrative vector art
+- add aria-expanded attributes to accordion items 
+
 
 ## Testing and Issues
 - Use of bootstrap classes demands heavy use of !important keywords in css to override
 - Bootstrap default styling looks generic
 - W3C validator results here -
+- use of collapsible elements has negative impact on accessibility 
 
 ## Deployment
 - after initial deployment with github pages, lighthouse report comes back all over 95%
