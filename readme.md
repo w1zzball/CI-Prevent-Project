@@ -15,9 +15,9 @@ The site aims to be easily legible, navigable and accessible for all users and c
 
 ### Feature to Implement / TODO
 - ~~resources / links~~ | **done**
-- better integrate images into warning signs section
+- ~~better integrate images into warning signs section~~ | **done**
 - testimonials
-
+- replace low quality AI placeholder images with illustrative vector art
 
 ## Testing and Issues
 - Use of bootstrap classes demands heavy use of !important keywords in css to override
@@ -34,5 +34,5 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - VSCode for editing
 - git for version control
 - Balsamiq for wireframing
-- ChatGPT for writing copy / images
+- ChatGPT for writing copy / placeholder images
 - GIMP for image manipulation

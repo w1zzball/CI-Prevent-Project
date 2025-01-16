@@ -1,4 +1,4 @@
-// Image lookup tables for both lists
+// Image lookup for both lists
 const firstListImages = {
     collapse1: {
         src: './assets/images/accordion/collapse1.webp',

@@ -236,9 +236,18 @@ form textarea {
 }
 
 /* signs */
-#signs img{
-    width: 300px;
-    height: auto;
+#signs .image-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signs img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
 }
 
 /* socials */
