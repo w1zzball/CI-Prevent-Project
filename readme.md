@@ -16,8 +16,9 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - copyright information
 - dynamic image loading
 - contact form updates to give user feedback
+
 ## Deployment and Testing
-- initial wireframing
+- initial wireframing using Balsamiq [Here](./docs/PreventWireframe.png)
 - after initial deployment of MVP with github pages, lighthouse report comes back all over 95%
 - with extra features added lighthouse report returns over 90% but SEO and performance under 95%
 - after more refinement all lighthouse metrics above 98% barring performance, seemingly due to the inclusion of bootstrap
@@ -30,9 +31,11 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - using 'expand all' button collapses first element if open
 
 ### Feature to Implement / TODO
+-favicon
 - ~~resources / links~~ | **done**
 - ~~better integrate images into warning signs section~~ |**done**
-- testimonials
+- testimonials | possibly outside scope of project / irrelevant
+- minor reworking of styling of 'signs' accordion (change border / shadow)
 - replace low quality AI placeholder images with illustrative vector art
 - add aria-expanded attributes to accordion items 
 - replace bootstrap with bespoke styling
