@@ -58,7 +58,7 @@ const secondListImages = {
 };
 
 //update copyright year
-document.getElementById('copyright').innerHTML = `&copy; ${new Date().getFullYear()}.`;
+document.getElementById('copyright').innerHTML = `&copy; Aaron Ibbotson ${new Date().getFullYear()}.`;
 
 //update contact form after user submits
 function submitUpdate() {
