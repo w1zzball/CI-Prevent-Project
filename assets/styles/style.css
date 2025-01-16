@@ -3,9 +3,10 @@
 
 /* global */
 :root {
-    --primary-light: #F1F7ED;
-    --primary-dark: #243E36;
-    --background-green: #7CA982;
+    --primary-light: #FFFFFF;
+    --primary-dark: #1A2F23;
+    --background-green: #2D5A3C;
+    
 }
 
 html {
@@ -81,7 +82,7 @@ footer {
 }
 
 .list-group-item {
-    background-color: var(--background-green) !important;
+    background-color: #9BC1A7 !important;
     color: var(--primary-dark) !important;
     border-color: var(--primary-light) !important;
     font-weight: 600 !important;

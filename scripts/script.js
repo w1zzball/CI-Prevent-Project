@@ -96,27 +96,30 @@ document.addEventListener('DOMContentLoaded', function () {
     
     listGroups.forEach(listGroup => {
         const collapseElements = listGroup.querySelectorAll('.collapse');
-        const toggleBtn = listGroup.previousElementSibling.querySelector('.toggle-all');
+        // Find the toggle button in the previous sibling div that has class text-end
+        const toggleBtn = listGroup.parentElement.querySelector('.toggle-all');
         
-        // Initialize button state
-        toggleBtn.textContent = 'Expand All';
-        
-        // Add toggle all button handler
-        toggleBtn.addEventListener('click', () => {
-            const currentState = toggleBtn.textContent;
-            const isExpanding = currentState === 'Expand All';
+        if (toggleBtn) {  // Add check to ensure button was found
+            // Initialize button state
+            toggleBtn.textContent = 'Expand All';
             
-            collapseElements.forEach(collapse => {
-                const bsCollapse = new bootstrap.Collapse(collapse, {toggle: false});
-                if (isExpanding) {
-                    bsCollapse.show();
-                } else {
-                    bsCollapse.hide();
-                }
+            // Add toggle all button handler
+            toggleBtn.addEventListener('click', () => {
+                const currentState = toggleBtn.textContent;
+                const isExpanding = currentState === 'Expand All';
+                
+                collapseElements.forEach(collapse => {
+                    const bsCollapse = new bootstrap.Collapse(collapse, {toggle: false});
+                    if (isExpanding) {
+                        bsCollapse.show();
+                    } else {
+                        bsCollapse.hide();
+                    }
+                });
+                
+                toggleBtn.textContent = isExpanding ? 'Collapse All' : 'Expand All';
             });
-            
-            toggleBtn.textContent = isExpanding ? 'Collapse All' : 'Expand All';
-        });
+        }
 
         // Add individual collapse handlers
         collapseElements.forEach(collapse => {

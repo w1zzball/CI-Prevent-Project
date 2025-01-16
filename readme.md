@@ -8,9 +8,11 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - Short Description of Prevent
 - Signs of Radicalisation
 - Contact Form
+
 ### Other Features
 - copyright information
 - dynamic image loading
+- contact form updates to give user feedback
 
 
 ### Feature to Implement / TODO
@@ -24,7 +26,7 @@ The site aims to be easily legible, navigable and accessible for all users and c
 ## Testing and Issues
 - Use of bootstrap classes demands heavy use of !important keywords in css to override
 - Bootstrap default styling looks generic
-- W3C validator results here -
+- W3C HTML and CSS validators return no errors
 - use of collapsible elements has negative impact on accessibility 
 
 ## Deployment
