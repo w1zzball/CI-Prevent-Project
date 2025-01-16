@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 10px; /* padding to stop nav hiding header */
     padding: 20px;
     margin: 20px;
-    border: 1px solid var (--primary-light);
+    border: 1px solid var(--primary-light);
     border-radius: 5px;
     background-color: var(--primary-dark);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -58,7 +58,7 @@ footer {
 .btn-primary {
     background-color: var(--background-green) !important;
     border-color: var(--primary-light) !important;
-    color: var (--primary-light) !important;
+    color: var(--primary-light) !important;
     border-radius: 0 !important;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -216,7 +216,7 @@ form textarea {
 
 .nav-link[href="#contact"]:hover {
     background-color: var(--primary-light) !important;
-    color: var (--primary-dark) !important;
+    color: var(--primary-dark) !important;
     border-color: var(--background-green) !important;
 }
 
