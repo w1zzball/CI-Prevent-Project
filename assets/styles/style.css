@@ -57,9 +57,9 @@ footer {
 /* buttons */
 
 .btn-primary {
-    background-color: var(--background-green) !important;
-    border-color: var(--primary-light) !important;
-    color: var(--primary-light) !important;
+    background-color: var(--background-green) ;
+    border-color: var(--primary-light) ;
+    color: var(--primary-light);
     border-radius: 0 !important;
     text-transform: uppercase;
     letter-spacing: 1px;
