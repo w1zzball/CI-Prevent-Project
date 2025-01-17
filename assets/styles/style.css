@@ -306,3 +306,9 @@ form textarea {
 #resources .list-group-item:hover::before {
     left: 100%;
 }
+
+@media screen and (min-width: 992px) {
+    #primary-contact-button{
+        display: none !important;
+    }
+}
