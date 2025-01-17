@@ -161,6 +161,9 @@ form textarea {
     border-bottom: 2px solid var(--primary-light) !important;
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-brand,
@@ -174,12 +177,18 @@ form textarea {
     font-weight: 700 !important;
     text-decoration: underline !important;
     text-underline-offset: 5px !important;
+    padding: 0 0 0.5rem 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-toggler {
     background-color: var(--background-green) !important;
     border: 1px solid var(--primary-light) !important;
     margin-bottom: 0.7rem !important;
+    margin: 0 0 0 0.5rem !important;
+    padding: 0.4rem 0.75rem;
 }
 
 .navbar-toggler-icon {
@@ -221,6 +230,10 @@ form textarea {
     border-color: var(--background-green) !important;
 }
 
+#navbarSupportedContent{
+    margin-top: 0;
+}
+
 /* Navbar mobile contact button */
 .navbar .nav-link[href="#contact"].d-lg-none {
     margin-right: 1rem;
@@ -239,8 +252,10 @@ form textarea {
 }
 
 .container-fluid {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    display: flex;
+    align-items: center;
 }
 
 /* signs */
@@ -311,4 +326,8 @@ form textarea {
     #primary-contact-button{
         display: none !important;
     }
+    margin: 0;
+    padding: 0.5rem 1rem !important;
+    display: flex;
+    align-items: center;
 }
