@@ -326,8 +326,5 @@ form textarea {
     #primary-contact-button{
         display: none !important;
     }
-    margin: 0;
-    padding: 0.5rem 1rem !important;
-    display: flex;
-    align-items: center;
+
 }
