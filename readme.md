@@ -60,6 +60,7 @@ The site aims to be easily legible, navigable and accessible for all users and c
 
 - https://jigsaw.w3.org/css-validator/
 
+- https://cloudconvert.com/png-to-webp
 ## Software used 
 - VSCode for editing
 - git for version control
