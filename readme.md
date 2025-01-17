@@ -35,10 +35,10 @@ The site aims to be easily legible, navigable and accessible for all users and c
 - ~~resources / links~~ | **done**
 - ~~better integrate images into warning signs section~~ |**done**
 - testimonials | possibly outside scope of project / irrelevant
-- minor reworking of styling of 'signs' accordion (change border / shadow)
 - replace low quality AI placeholder images with illustrative vector art
 - add aria-expanded attributes to accordion items 
-- replace bootstrap with bespoke styling
+- replace bootstrap with bespoke styling | unfeasible in this sprint
+- go through and prune !important spam in css
 - ~~ensure all images are of same proportions~~ | **done**
 
 
