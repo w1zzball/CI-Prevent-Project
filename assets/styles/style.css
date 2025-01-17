@@ -49,6 +49,11 @@ main {
     flex: 1 0 auto;
 }
 
+img{
+    width: 450px;
+    height: 450px;
+}
+
 footer {
     margin-top: auto;
 }
