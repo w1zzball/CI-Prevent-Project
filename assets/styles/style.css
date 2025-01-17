@@ -254,6 +254,7 @@ form textarea {
 
 .navbar-collapse {
     justify-content: flex-end !important;
+    margin-top: 1rem !important; /* Add margin above dropdown menu */
 }
 
 .container-fluid {
