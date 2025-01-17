@@ -221,6 +221,13 @@ form textarea {
     border-color: var(--background-green) !important;
 }
 
+/* Navbar mobile contact button */
+.navbar .nav-link[href="#contact"].d-lg-none {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem !important;
+    font-size: 0.9rem;
+}
+
 .navbar-nav {
     margin-left: 23% !important;
     margin-right: auto !important;
