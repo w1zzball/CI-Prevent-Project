@@ -57,10 +57,10 @@ footer {
 /* buttons */
 
 .btn-primary {
-    background-color: var(--background-green) ;
-    border-color: var(--primary-light) ;
+    background-color: var(--background-green);
+    border-color: var(--primary-light);
     color: var(--primary-light);
-    border-radius: 0 !important;
+    border-radius: 5px !important; /* Changed from 0 to 5px to match other buttons */
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: all 0.3s ease !important;
